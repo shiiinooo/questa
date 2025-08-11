@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "14fae8dc-5ed7-42fe-9cd6-b5e97704c302": {
+      "id": "14fae8dc-5ed7-42fe-9cd6-b5e97704c302",
+      "title": "task",
+      "difficulty": "MEDIUM",
+      "priority": "MEDIUM",
+      "status": "PENDING",
+      "notes": null,
+      "xp_reward": 30,
+      "created_at": "2025-08-10T02:24:13.738859",
+      "completed_at": null
+    }
+  },
+  "version": "1.0",
+  "last_modified": "2025-08-10T02:50:24.304144"
+}

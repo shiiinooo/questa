@@ -1,0 +1,25 @@
+{
+  "player": {
+    "total_xp": 0,
+    "tasks_completed": 0,
+    "current_streak": 0,
+    "last_activity": null,
+    "easy_tasks_completed": 0,
+    "medium_tasks_completed": 0,
+    "hard_tasks_completed": 0
+  },
+  "statistics": {
+    "level": 1,
+    "total_xp": 0,
+    "xp_to_next_level": 100,
+    "level_progress": 0.0,
+    "tasks_completed": 0,
+    "current_streak": 0,
+    "easy_tasks_completed": 0,
+    "medium_tasks_completed": 0,
+    "hard_tasks_completed": 0,
+    "last_activity": null
+  },
+  "version": "1.0",
+  "last_modified": "2025-08-10T02:50:24.305243"
+}

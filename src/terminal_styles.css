@@ -1,0 +1,696 @@
+/* QUESTA Terminal Theme - Complete Override */
+
+/* Base Application Styling */
+App {
+    background: #0a1543;
+    color: #e0e0e0;
+}
+
+Screen {
+    background: #0a1543;
+    color: #e0e0e0;
+}
+
+/* Typography - Note: Textual doesn't support font-family in CSS */
+
+/* Headers and Navigation */
+.terminal-header {
+    background: #0a1543;
+    color: #1b45d7;
+    height: 3;
+    dock: top;
+    padding: 0 2;
+    border-bottom: solid #3a3a3a;
+}
+
+.terminal-footer {
+    background: #0a1543;
+    color: #9aa0b0;
+    height: 2;
+    dock: bottom;
+    padding: 0 2;
+    border-top: solid #3a3a3a;
+}
+
+.screen-title {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+.user-context {
+    color: #9aa0b0;
+    text-align: right;
+}
+
+.navigation-commands {
+    color: #9aa0b0;
+}
+
+/* Panels and Containers */
+.terminal-panel {
+    background: #181817;
+    border: solid #3a3a3a;
+    padding: 1;
+    margin: 1;
+}
+
+.terminal-panel-header {
+    background: #0a1543;
+    color: #1b45d7;
+    text-style: bold;
+    padding: 0 1;
+    dock: top;
+    height: 1;
+    border-bottom: solid #3a3a3a;
+}
+
+.terminal-panel-content {
+    padding: 1;
+    height: 100%;
+}
+
+.focused-panel {
+    border: solid #1b45d7;
+}
+
+/* Layout */
+.terminal-content {
+    layout: horizontal;
+}
+
+.terminal-sidebar {
+    width: 25%;
+    min-width: 30;
+    border-right: solid #3a3a3a;
+    background: #181817;
+}
+
+.terminal-main {
+    background: #181817;
+}
+
+/* Text Styles */
+.terminal-text {
+    color: #e0e0e0;
+}
+
+.terminal-text-muted {
+    color: #9aa0b0;
+}
+
+.terminal-text-bright {
+    color: #ffffff;
+}
+
+.terminal-title {
+    color: #1b45d7;
+    text-style: bold;
+    text-align: center;
+}
+
+.terminal-subtitle {
+    color: #9aa0b0;
+    text-align: center;
+}
+
+.terminal-highlight {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+/* Form Elements */
+Input {
+    background: #0a1543;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+}
+
+Input:focus {
+    border: solid #1b45d7;
+}
+
+Select {
+    background: #0a1543;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+}
+
+Select:focus {
+    border: solid #1b45d7;
+}
+
+TextArea {
+    background: #0a1543;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+}
+
+TextArea:focus {
+    border: solid #1b45d7;
+}
+
+.form-label {
+    color: #1b45d7;
+    text-style: bold;
+    margin: 0 0 1 0;
+}
+
+.form-error {
+    color: #f44336;
+    text-style: italic;
+}
+
+.form-help {
+    color: #9aa0b0;
+    text-style: italic;
+}
+
+/* Buttons */
+Button {
+    background: #1b45d7;
+    color: #ffffff;
+    border: solid #1b45d7;
+    margin: 1;
+}
+
+Button:hover {
+    background: #19327f;
+}
+
+Button:focus {
+    border: solid #ffffff;
+}
+
+/* Progress Bars */
+ProgressBar {
+    background: #1e1e1e;
+}
+
+ProgressBar > .bar--bar {
+    color: #0a1543;
+}
+
+ProgressBar > .bar--complete {
+    background: #1b45d7;
+}
+
+/* Task Status Colors */
+.status-pending {
+    color: #9aa0b0;
+}
+
+.status-active {
+    color: #1b45d7;
+}
+
+.status-completed {
+    color: #4caf50;
+}
+
+.status-blocked {
+    color: #f44336;
+}
+
+/* Priority Colors */
+.priority-low {
+    color: #9aa0b0;
+}
+
+.priority-medium {
+    color: #ffc107;
+}
+
+.priority-high {
+    color: #ff9800;
+}
+
+.priority-critical {
+    color: #f44336;
+}
+
+/* Difficulty Colors */
+.difficulty-easy {
+    color: #4caf50;
+}
+
+.difficulty-medium {
+    color: #ffc107;
+}
+
+.difficulty-hard {
+    color: #f44336;
+}
+
+/* XP and Rewards */
+.xp-value {
+    color: #ffc107;
+    text-style: bold;
+}
+
+.level-info {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+.streak-info {
+    color: #ffc107;
+}
+
+/* Selection and Hover States */
+.selected {
+    background: #19327f;
+    color: #ffffff;
+}
+
+.hover {
+    background: #19327f;
+}
+
+/* Task List Items */
+.task-item {
+    padding: 1;
+    border-bottom: solid #3a3a3a;
+}
+
+.task-item:hover {
+    background: #19327f;
+}
+
+.task-title {
+    color: #e0e0e0;
+    text-style: bold;
+}
+
+.task-meta {
+    color: #9aa0b0;
+}
+
+/* Modals and Dialogs */
+.terminal-modal {
+    background: #0a1543;
+    border: thick #1b45d7;
+    text-align: center;
+    padding: 2;
+}
+
+.modal-title {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+.modal-message {
+    color: #e0e0e0;
+}
+
+.modal-buttons {
+    layout: horizontal;
+    margin: 1 0 0 0;
+}
+
+/* Messages and Notifications */
+.success-message {
+    color: #4caf50;
+    background: #181817;
+    border: solid #4caf50;
+}
+
+.error-message {
+    color: #f44336;
+    background: #181817;
+    border: solid #f44336;
+}
+
+.warning-message {
+    color: #ff9800;
+    background: #181817;
+    border: solid #ff9800;
+}
+
+.info-message {
+    color: #1b45d7;
+    background: #181817;
+    border: solid #1b45d7;
+}
+
+/* Welcome Screen Specific */
+#welcome-container {
+    height: 100%;
+    align: center middle;
+    text-align: center;
+}
+
+#logo {
+    color: #1b45d7;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    color: #19327f;
+}
+
+/* ASCII Art and Special Elements */
+.ascii-art {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+.ascii-border {
+    color: #3a3a3a;
+}
+
+.progress-bar-terminal {
+    color: #ffc107;
+}
+
+/* Override existing styles to ensure terminal theme takes precedence */
+Header {
+    background: #0a1543;
+    color: #1b45d7;
+}
+
+Footer {
+    background: #0a1543;
+    color: #9aa0b0;
+}
+
+Label {
+    color: #e0e0e0;
+}
+
+/* Ensure all existing task-related styles use terminal colors */
+.task-difficulty-easy {
+    color: #4caf50;
+}
+
+.task-difficulty-medium {
+    color: #ffc107;
+}
+
+.task-difficulty-hard {
+    color: #f44336;
+}
+
+.task-priority-low {
+    color: #9aa0b0;
+}
+
+.task-priority-medium {
+    color: #ffc107;
+}
+
+.task-priority-high {
+    color: #ff9800;
+}
+
+.task-priority-critical {
+    color: #f44336;
+}
+
+.task-status-pending {
+    color: #9aa0b0;
+}
+
+.task-status-active {
+    color: #1b45d7;
+}
+
+.task-status-blocked {
+    color: #ff9800;
+}
+
+.task-status-completed {
+    color: #4caf50;
+}
+
+/* Container and panel overrides */
+.container {
+    background: #181817;
+    border: solid #3a3a3a;
+    padding: 1;
+}
+
+.panel {
+    background: #181817;
+    border: solid #3a3a3a;
+    padding: 1;
+    margin: 1;
+}
+
+/* Text style overrides */
+.title {
+    text-style: bold;
+    color: #1b45d7;
+    text-align: center;
+}
+
+.subtitle {
+    color: #9aa0b0;
+    text-align: center;
+}
+
+.highlight {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+.muted {
+    color: #9aa0b0;
+}
+
+/* New Quest Screen Form Styles */
+.terminal-input {
+    background: #0a1543;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+    padding: 0 1;
+    margin: 0 0 1 0;
+}
+
+.terminal-input:focus {
+    border: solid #1b45d7;
+    background: #181817;
+}
+
+.terminal-select {
+    background: #0a1543;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+    margin: 0 0 1 0;
+}
+
+.terminal-select:focus {
+    border: solid #1b45d7;
+    background: #181817;
+}
+
+.terminal-textarea {
+    background: #0a1543;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+    padding: 1;
+    margin: 0 0 1 0;
+    min-height: 4;
+}
+
+.terminal-textarea:focus {
+    border: solid #1b45d7;
+    background: #181817;
+}
+
+.form-row {
+    margin: 1 0;
+    width: 100%;
+}
+
+.form-field {
+    margin: 0 1 0 0;
+    width: 50%;
+}
+
+.form-actions {
+    margin: 2 0 0 0;
+    width: 100%;
+}
+
+.primary-button {
+    background: #1b45d7;
+    color: #ffffff;
+    border: solid #1b45d7;
+    margin: 0 1 0 0;
+    padding: 1 2;
+}
+
+.primary-button:hover {
+    background: #19327f;
+}
+
+.primary-button:focus {
+    border: solid #ffffff;
+}
+
+.primary-button:disabled {
+    background: #3a3a3a;
+    color: #9aa0b0;
+    border: solid #3a3a3a;
+}
+
+.secondary-button {
+    background: #3a3a3a;
+    color: #e0e0e0;
+    border: solid #3a3a3a;
+    margin: 0 1 0 0;
+    padding: 1 2;
+}
+
+.secondary-button:hover {
+    background: #19327f;
+}
+
+.secondary-button:focus {
+    border: solid #1b45d7;
+}
+
+#form-container {
+    padding: 1;
+    width: 100%;
+}
+
+.xp-preview-container {
+    background: #181817;
+    border: solid #ffc107;
+    padding: 1;
+    margin: 1 0;
+}
+
+.xp-preview-container .xp-value {
+    color: #ffc107;
+    text-style: bold;
+    text-align: center;
+}
+
+.xp-preview-container .terminal-text-muted {
+    color: #9aa0b0;
+    text-align: center;
+    margin: 1 0 0 0;
+}
+
+.form-validation-message {
+    color: #9aa0b0;
+    text-style: italic;
+    margin: 0 0 1 0;
+    height: 1;
+}
+
+.form-validation-message.error {
+    color: #f44336;
+}
+
+.form-validation-message.warning {
+    color: #ff9800;
+}
+
+.form-validation-message.success {
+    color: #4caf50;
+}
+
+/* Existing app-specific styles that need terminal colors */
+.tui-header {
+    background: #0a1543;
+    height: 3;
+    dock: top;
+    padding: 0 2;
+    border-bottom: solid #3a3a3a;
+}
+
+.tui-footer {
+    background: #0a1543;
+    height: 2;
+    dock: bottom;
+    padding: 0 2;
+    border-top: solid #3a3a3a;
+}
+
+.player-info, .filter-info, .journal-subtitle, .form-subtitle {
+    color: #9aa0b0;
+    text-align: right;
+}
+
+.shortcuts {
+    color: #9aa0b0;
+}
+
+.status-info {
+    color: #9aa0b0;
+    text-align: right;
+}
+
+.tui-content {
+    layout: horizontal;
+}
+
+.tui-sidebar {
+    width: 25%;
+    min-width: 30;
+    border-right: solid #3a3a3a;
+    background: #181817;
+}
+
+.tui-main {
+    background: #181817;
+}
+
+.panel-header {
+    background: #0a1543;
+    color: #1b45d7;
+    text-style: bold;
+    padding: 0 1;
+    dock: top;
+    height: 1;
+    border-bottom: solid #3a3a3a;
+}
+
+.panel-content {
+    padding: 1;
+    height: 100%;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-row {
+    margin: 1 0;
+}
+
+.form-row.large {
+    margin: 2 0;
+}
+
+.completion-modal, .level-up-modal, .info-modal, .confirm-modal {
+    background: #0a1543;
+    border: thick #1b45d7;
+    width: 50;
+    height: auto;
+    text-align: center;
+    padding: 2;
+}
+
+.completion-title, .level-up-title {
+    color: #1b45d7;
+    text-style: bold;
+}
+
+.completed-task {
+    color: #1b45d7;
+}
+
+.xp-gained {
+    color: #ffc107;
+    text-style: bold;
+}
+
+.level-up-text {
+    color: #1b45d7;
+    text-style: bold;
+}
